@@ -1,12 +1,7 @@
-# Simple App
+# Simple apps
 
-An app that only responds to a root request.
+A set of simple web apps written in different languages. The usage for these apps is to easy test infrastructure deployements for various languages/frameworks.
 
+## start_server.sh
 
-```
-GET /
-
-Returns 200
-```
-
-Anything else, results in 404.
+Each directory includes a `start_server.sh` script which will launch the application.
